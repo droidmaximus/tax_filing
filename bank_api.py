@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 fake_financials = {
-    "1": {  # Replace with actual bank numbers
+    "1": { 
         "account_balance": 5000.0,
         "transactions": [
             {"date": "2024-01-01", "description": "Purchase", "amount": -100.0},
